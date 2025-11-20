@@ -1,58 +1,76 @@
-# Business Management Web Application
+# Spring Boot REST API Project
 
-This is a **collaborative, learning-based project** that I built while exploring **Spring Boot, Thymeleaf, and MySQL**.  
-The project is **not created fully from scratch** by me — instead, I followed tutorials, studied open-source implementations, and **forked an existing GitHub project**, then modified and customized it to improve my understanding of backend development.
-
-This project helped me learn:
-- How real-world Spring Boot applications are structured  
-- How to build CRUD operations using services & repositories  
-- Authentication and role-based access  
-- Working with Thymeleaf templates  
-- Integrating MySQL with Spring Boot  
-- Improving code readability and project structure  
-
-I have made several changes, improvements, and configurations on top of the forked code as part of my hands-on practice.
-
----
-
-## 🚀 Features
-- Customer Management  
-- Inventory & Product Management  
-- Order Handling  
-- User Authentication  
-- Admin & Staff Role Management  
-- MySQL Database Integration  
-- Thymeleaf-based UI
-
----
-
-## 🛠️ Technologies Used
-- **Java 17**
-- **Spring Boot**
-- **Spring MVC + JPA**
-- **Thymeleaf**
-- **MySQL**
-- **Maven**
+This repository contains a **Spring Boot REST API application** that I built as part of my **learning and practice journey**.  
+The project is **not fully developed by me from scratch** — it is a **collaborative, tutorial-based, and forked-learning project** where I studied open-source implementations, followed guides, and made my own improvements to understand how real REST APIs are designed.
 
 ---
 
 ## 📘 Project Purpose
 
-This repository is mainly for **learning and skill development**.  
-It represents how I practice building backend systems and understanding real-time project workflows.
+The main purpose of this project is to **learn how to build and work with RESTful APIs using Spring Boot**.  
+By working on this codebase, I gained practical knowledge of:
 
-This project **helped me gain strong understanding** of:
-- Layered architecture (Controller → Service → Repository)
-- Form handling in Thymeleaf
-- Database relationships and schema design
-- Spring Boot project configuration
-- Error handling & validation
-- Login sessions and authentication
+- Designing REST endpoints  
+- Handling HTTP methods (GET, POST, PUT, DELETE)  
+- Using Controllers, Services & Repository layers  
+- Working with JPA/Hibernate  
+- JSON request–response handling  
+- Exception handling in REST APIs  
+- Database integration with MySQL  
+- API testing using Postman  
+
+Although this project is based on **tutorials and a forked repository**, I have made **custom changes and improvements** as part of my learning.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 Features of the REST API
 
-### 1️⃣ Clone / Download the Project
+- Create, Read, Update, Delete (CRUD) operations  
+- Layered architecture  
+- DTOs (if applicable)  
+- Global exception handling  
+- Validation on request bodies  
+- MySQL database integration  
+- Clean JSON responses  
+- Tested using Postman  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java 17**
+- **Spring Boot**
+- **Spring Web**
+- **Spring Data JPA**
+- **Hibernate**
+- **MySQL**
+- **Maven**
+- **Postman** (for API testing)
+
+---
+
+## 🌱 Learning-Based Contribution
+
+This project is created as part of my **backend development learning**.  
+I want to clearly mention:
+
+- I **forked the original GitHub project** for learning.  
+- I followed **online tutorials, documentation, and guides**.  
+- I implemented **my own modifications**, such as:
+  - Refactoring code  
+  - Renaming classes  
+  - Adding validations  
+  - Changing REST endpoints  
+  - Adding comments  
+  - Adjusting database configurations  
+  - Fixing minor bugs  
+
+This project helped me understand **real development workflows**, even though it is not an entirely original project.
+
+---
+
+## 📁 How to Run the Project
+
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/YourUserName/YourRepository.git
